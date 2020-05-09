@@ -2,7 +2,7 @@
 
 Ceci est un projet pour pouvoir testé API Platform avec Symfony 4
 
-Le but du projet est d'afficher la liste des factures clients de l'utilisateur associé
+Le but du projet est d'afficher la liste des factures clients de l'utilisateur associé.
 
 # Liste des Web Service REST 
 ![Api Customer](https://user-images.githubusercontent.com/51760726/81479360-ff6b8000-9222-11ea-97ea-6bd7f410a15d.png)
