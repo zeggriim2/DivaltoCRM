@@ -49,8 +49,6 @@ const CustomersPageWithPagination = (props) => {
         setCurrentPage(page);
         setLoading(true);
     }
-
-    console.log(totalItems);
     
     
 

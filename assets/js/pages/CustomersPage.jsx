@@ -13,7 +13,7 @@ const CustomersPage = (props) => {
         try{
             const data = await CustomerAPI.findAll()
             setCustomer(data);
-            CustomerAPI.findAll()
+            // CustomerAPI.findAll()
         }catch(error){
             console.log(error.response)
         }
@@ -80,7 +80,7 @@ const CustomersPage = (props) => {
 
     return ( 
     <>
-        <h1>Liste des clients</h1>
+        <h1>Listes des clients</h1>
 
         <div className="form-group">
             <input type="text" onChange={handleSearch} value={search} className="form-control" placeholder="Rechercher ..."/>
